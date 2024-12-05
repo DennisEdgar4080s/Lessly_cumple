@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, rgba(255, 180, 200, 0.7), rgba(180, 220, 255, 0.7));
+    animation: backgroundAnimation 10s infinite alternate;
+}
+
+@keyframes backgroundAnimation {
+    0% {
+        background: linear-gradient(135deg, rgba(255, 180, 200, 0.7), rgba(180, 220, 255, 0.7));
+    }
+    100% {
+        background: linear-gradient(135deg, rgba(180, 220, 255, 0.7), rgba(200, 255, 200, 0.7));
+    }
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 20px;
+    max-width: 600px;
+    margin: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.container .tenor-gif-embed {
+    display: flex;
+    max-width: 250px;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+h1 {
+    color: rgb(40, 40, 40);
+    font-size: 1.8rem;
+}
+
+p {
+    color: rgb(80, 80, 80);
+    font-size: 1.2rem;
+}
+
+.container .btn {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.btn a {
+    text-decoration: none;
+    color: #ffffff;
+    background: #ff69b4;
+    padding: 12px 30px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 4px 10px rgba(255, 105, 180, 0.4);
+}
+
+.btn a:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 15px rgba(255, 105, 180, 0.6);
+}
+
+.birthday-box {
+    margin-top: 20px;
+    padding: 15px;
+    border: 2px dashed rgba(255, 105, 180, 0.5);
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.birthday-box h2 {
+    font-size: 1.5rem;
+    color: #ff69b4;
+}
+
+.watermark {
+    position: fixed;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    font-size: 0.8rem;
+    color: rgba(0, 0, 0, 0.3);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, rgba(255, 180, 200, 0.7), rgba(180, 220, 255, 0.7));
+    animation: backgroundAnimation 10s infinite alternate;
+}
+
+@keyframes backgroundAnimation {
+    0% {
+        background: linear-gradient(135deg, rgba(255, 180, 200, 0.7), rgba(180, 220, 255, 0.7));
+    }
+    100% {
+        background: linear-gradient(135deg, rgba(180, 220, 255, 0.7), rgba(200, 255, 200, 0.7));
+    }
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 20px;
+    max-width: 600px;
+    margin: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.container .tenor-gif-embed {
+    display: flex;
+    max-width: 250px;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+h1 {
+    color: rgb(40, 40, 40);
+    font-size: 1.8rem;
+}
+
+p {
+    color: rgb(80, 80, 80);
+    font-size: 1.2rem;
+}
+
+.container .btn {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.btn a {
+    text-decoration: none;
+    color: #ffffff;
+    background: #ff69b4;
+    padding: 12px 30px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 4px 10px rgba(255, 105, 180, 0.4);
+}
+
+.btn a:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 15px rgba(255, 105, 180, 0.6);
+}
+
+.birthday-box {
+    margin-top: 20px;
+    padding: 15px;
+    border: 2px dashed rgba(255, 105, 180, 0.5);
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.birthday-box h2 {
+    font-size: 1.5rem;
+    color: #ff69b4;
+}
+
+.watermark {
+    position: fixed;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    font-size: 0.8rem;
+    color: rgba(0, 0, 0, 0.3);
+}
